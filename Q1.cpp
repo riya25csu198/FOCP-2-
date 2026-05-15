@@ -9,7 +9,7 @@ int main(){
     cin>>b;
     cout<<"Enter the marks of third student:";
     cin>>c;
-    average=a+b+c;
+    average=a+b+c/3 ;
     cout<<"The average of the class is: "<<average;
     return 0;
 }
